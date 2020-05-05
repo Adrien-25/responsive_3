@@ -51,7 +51,7 @@ h3{
     font-size:1.25rem;
     color:#2E2E2E;
     line-height:1.5rem;
-    margin: 0;
+    margin: 1.96875rem 0 1.15625rem 0;
     padding: 0;
 }
 p{
@@ -60,7 +60,10 @@ p{
     line-height:1.875rem;
     margin: 0;
     padding: 0;
-}   
+} 
+a{
+    text-decoration: none;
+}  
 .title_paragraph{
     font-family: 'Rubik Regular';
     font-size:1.0625rem;
@@ -137,7 +140,10 @@ ul{
 body{
     margin:0;
 }
-
+/*COULEUR*/
+.bc_white{
+    background-color: #FCFCFC;
+}
 /*HEADER*/
 .page_header{
     background: rgb(9,35,75);
@@ -173,7 +179,23 @@ body{
     margin-bottom: 2.88125rem;
 }
 .tab_items{
-    width:19.375rem;
+    width:19.375rem;  
+}
+.tab_items:hover{
+    padding: 40px 26.1px 33.8px 29.9px;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, .15);
+}
+.tab_items:hover .tab_logo{
+    background-color: #FF8400; 
+}
+.tab_items:hover .logo_hover{
+    display: block;
+}
+.tab_items:hover .logo_base{
+    display: none;
+}
+.margin_tab{
+    margin:40px 0 73.8px 0;
 }
 .tab_logo{
     width: 70px;
@@ -186,4 +208,10 @@ body{
 }
 .logo_hover{
     display: none;
+}
+.tab_paragraph{
+    margin-bottom: 1.91875rem;
+}
+.arrow_pics{
+    margin-left: 9px;
 }
