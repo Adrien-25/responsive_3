@@ -169,6 +169,8 @@ body{
 }
 .page_title{
     margin:9.8rem 0 1.04375rem 0;
+    width: 100%;
+    text-align: center;
 }
 .title_section{
     margin:111.9px 0 23px 0;
@@ -179,7 +181,7 @@ body{
     margin-bottom: 2.88125rem;
 }
 .tab_items{
-    width:19.375rem;  
+    width:20rem;  
 }
 .tab_items:hover{
     padding: 40px 26.1px 33.8px 29.9px;
@@ -214,4 +216,37 @@ body{
 }
 .arrow_pics{
     margin-left: 9px;
+}
+@media only screen and (max-width:1300px) {
+    .top_header{
+        width:90%;
+    }
+    .services_content{
+        width: 90%;
+    }
+    .tab_items{
+        pointer-events: none;
+    }
+    .title_paragraph{
+        width: 90%;
+    }
+}
+@media all and (max-width:999px){
+    html{
+        font-size: 150%;
+    }
+    .top_header{
+        flex-direction: column;
+        align-items: center;
+    }
+   .top_header>*{
+       margin: 1rem;
+   }
+   .services_tab{
+    justify-content: space-around;
+   }
+   .tab_items{
+       margin: 40px 0 73.8px 0;
+       width: 15rem;
+   }
 }
